@@ -1,0 +1,61 @@
+Return a JSON array with these fields ({fields}) as the answer.
+
+You are an expert in NLP and linguistic analysis. Please evaluate the explanation of every sample for a text classification task in the JSON file on a scale of 1-5 (1 being the lowest, 5 being the highest) based on the following criteria. Additionally, **provide detailed justifications referencing specific aspects of the explanation and the text for each score**. 
+Evaluation Criteria:
+
+	1.	Clarity:
+	•	Score 1: The explanation is very unclear or difficult to understand.
+	•	Score 2: The explanation is unclear in many parts and needs significant improvement.
+	•	Score 3: The explanation is mostly clear but has some areas that need improvement.
+	•	Score 4: The explanation is clear but could benefit from minor enhancements.
+	•	Score 5: The explanation is very clear, with no ambiguity.
+	•	Guiding Questions:
+	•	Does the explanation use language that is easy to understand?
+	•	Does the explanation avoid complex terms or convoluted sentence structures?
+	•	Are there specific examples or wording that make the explanation clearer?
+	2.	Relevance:
+	•	Score 1: The explanation is completely unrelated to the given text and classification task.
+	•	Score 2: The explanation has limited relevance to the text and task, with many unrelated parts.
+	•	Score 3: The explanation is mostly relevant, but some parts are not pertinent.
+	•	Score 4: The explanation is relevant, with only minor deviations.
+	•	Score 5: The explanation is entirely relevant, closely aligned with the text and classification task.
+	•	Guiding Questions:
+	•	Does the explanation directly address the core issue of the classification task?
+	•	Is the explanation closely related to the content of the text?
+	•	Are there parts of the explanation that deviate from the text or task?
+	3.	Completeness:
+	•	Score 1: The explanation is very incomplete, missing critical factors.
+	•	Score 2: The explanation is incomplete, missing several important details.
+	•	Score 3: The explanation is mostly complete but lacks some details.
+	•	Score 4: The explanation is complete, with only minor omissions.
+	•	Score 5: The explanation is very complete, covering all critical factors with no omissions.
+	•	Guiding Questions:
+	•	Does the explanation cover all the critical factors influencing the classification decision?
+	•	Are any important details or factors missing from the explanation?
+	•	Does the explanation provide sufficient background information to support the classification decision?
+	4.	Consistency:
+	•	Score 1: The explanation is completely inconsistent with the classification result.
+	•	Score 2: The explanation has several inconsistencies with the classification result.
+	•	Score 3: The explanation has some consistency with the classification result, but not fully.
+	•	Score 4: The explanation is consistent with minor inconsistencies.
+	•	Score 5: The explanation is entirely consistent with the classification result.
+	•	Guiding Questions:
+	•	Is the explanation consistent with the classification result?
+	•	Are there any parts of the explanation that contradict the classification result?
+	•	Does the explanation provide enough evidence to support the classification result?
+	5.	Credibility:
+	•	Score 1: The explanation is not credible or contains obvious errors.
+	•	Score 2: The explanation has low credibility with several doubtful elements.
+	•	Score 3: The explanation is somewhat credible but contains elements that are doubtful.
+	•	Score 4: The explanation is credible with minor issues.
+	•	Score 5: The explanation is credible and aligns with known information and logic.
+	•	Guiding Questions:
+	•	Is the explanation logical and credible?
+	•	Does the explanation contain any obvious errors or false information?
+	•	Are there any parts of the explanation that seem suspicious or unreliable?
+
+Text: {original_text}
+
+Model’s Classification: {pred_label}
+
+Model’s Explanation: {explanation}

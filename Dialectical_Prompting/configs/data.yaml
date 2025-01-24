@@ -1,0 +1,142 @@
+Overruling:
+    data_name: Overruling
+    file_name:
+        - train.json
+        - val.json
+        - test.json
+    data_num:
+        - 1920
+        - 168
+        - 312
+    task_type: overruling classification for legal sentences
+    input: text
+    input_description: Sentences from legal documents regarding case decisions
+    data_label_name: ans_text
+    data_label_list:
+        - "overruling"
+        - "non_overruling"
+    compete_label_list:
+        - "overruling"
+        - "non_overruling"
+    category_description: Overruling and non-overruling judgments for legal sentences;An overruling sentence nullifies a previous case decision by a valid statute or a decision by the same or higher court that establishes a different rule on the point of law involved.
+    task_information: ""
+    task_description: "Analyze the provided sentences from legal documents to determine whether they are overruling statements. Classify each sentence into one of two categories: 'overruling' for overruling statements and 'non_overruling' for non-overruling statements. "
+StockEmotions:
+    data_name: StockEmotions
+    file_name:
+        - train.json
+        - val.json
+        - test.json
+    data_num:
+        - 8000
+        - 1000
+        - 1000
+    task_type: financial sentiment classification
+    input: text
+    input_description: Comments regarding stock market activities from a financial social media platform
+    data_label_name: sentiment
+    data_label_list:
+        - "bullish"
+        - "bearish"
+    compete_label_list:
+        - "bullish"
+        - "bearish"
+    category_description: Investor sentiments
+    task_information: ""
+    task_description: "Please analyze comments regarding stock market activities and classify them into financial sentiment (bullish or bearish)"
+Stance_for_Trump:
+    data_name: Stance_for_Trump
+    file_name:
+        - train.json
+        - val.json
+        - test.json
+    data_num:
+        - 875
+        - 112
+        - 263
+    task_type: political stance detection
+    input: text
+    input_description: Twitter content regarding the US Presidential election
+    data_label_name: ans_text
+    data_label_list:
+        - "SUPPORT"
+        - "NEUTRAL"
+        - "OPPOSITION"
+    compete_label_list:
+        - "SUPPORT: support Donald Trump"
+        - "NEUTRAL: neutral"
+        - "OPPOSITION: oppose Donald Trump"
+    category_description: political stance for Donald Trump
+    task_information: "**Only consider the stance for Donald Trump**"
+    task_description: "Please analyze Twitter contentregarding the US Presidential election and classify it into three stance categories for Donald Trump: SUPPORT, NEUTRAL, and OPPOSITIOON."
+RTE:
+    data_name: RTE
+    file_name:
+        - train.json
+        - val.json
+        - test.json
+    data_num:
+        - 2241
+        - 249
+        - 277
+    task_type: natural language inference
+    input: text
+    input_description: natural language premise and hypothesis
+    data_label_name: ans_text
+    data_label_list:
+        - not_entailment
+        - entailment
+    compete_label_list:
+        - not_entailment
+        - entailment
+    category_description: textual inference relationship
+    task_information: ""
+    task_description: "Please classify the sentence into entailment / not_entailment."
+ethos:
+    data_name: ethos
+    file_name:
+        - train.json
+        - val.json
+        - test.json
+    data_num:
+        - 601
+        - 67
+        - 300
+    task_type: hate speech detection
+    input: text
+    input_description: online social media
+    data_label_name: ans_text
+    data_label_list:
+        - hate
+        - no hate
+    compete_label_list:
+        - hate
+        - no hate
+    category_description: hate speech
+    task_information: ""
+    task_description: "Please classify the sentence into hate / no hate."
+values:
+    data_name: values
+    file_name:
+        - train.json
+        - val.json
+        - test.json
+    data_num:
+        - 16030
+        - 3206
+        - 2138
+    task_type: Value-based analysis of personal attitudes
+    input: text
+    input_description: Value-based analysis of personal attitudes
+    data_label_name: ans_text
+    data_label_list:
+        - "AFFIRMATION"
+        - "IRRELEVANCE"
+        - "REJECTION"
+    compete_label_list:
+        - "AFFIRMATION: Yes, I would say this."
+        - "IRRELEVANCE: This value does not determine whether I would say this."
+        - "REJECTION: No, I would not say this."
+    category_description: attitude choice
+    task_information: "**Only consider how holding the mentioned value influences the attitude choice for each category**"
+    task_description: "Please answer the question with attitude choice AFFIRMATION/ IRRELEVANCE / REJECTION. Undertand the attitude choice: AFFIRMATION: Yes, I would say this. IRRELEVANCE: This value does not determine whether I would say this. REJECTION: No, I would not say this."

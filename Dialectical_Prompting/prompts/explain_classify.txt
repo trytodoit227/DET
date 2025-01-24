@@ -1,0 +1,14 @@
+Return a JSON array with these fields ({explain_fields}) as the answer.
+
+Dialectically analyze the {input_description} input text below and briefly explain why it could support different categories({category_description})—{compete_types}.
+
+Ensure that each explanation highlights the most critical details supporting that specific category, 
+remembering that all categories are possible and must be explained without omission.
+{task_information}
+
+Input: {question}.
+
+
+
+
+

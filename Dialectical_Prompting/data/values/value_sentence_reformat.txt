@@ -1,0 +1,1 @@
+If you are someone who values {special_value}, will you do or say:{special_text}

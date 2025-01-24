@@ -1,0 +1,37 @@
+
+# ─── Tasks To Be Evaluated On ─────────────────────────────────────────────────
+
+# Note:
+# * Only string values are allowed
+
+data:
+#    - "Stance_for_Trump"
+#    - "StockEmotions"
+#    - "Overruling"
+#    - "RTE"
+#    - "ethos"
+    - "values"
+
+
+# ─── Models To Be Evaluated ───────────────────────────────────────────────────
+
+llm:
+    api:
+        - GPT:
+            model_name: gpt-3.5-turbo
+#            model_name: gpt-4o-2024-05-13
+            # model_name: gpt-4o-mini-2024-07-18
+#            model_name: gpt-4o-mini
+#            model_name: gpt-4
+#            model_name: llama-3-8b
+#            model_name: claude-3-5-sonnet-20240620
+            # model_name: qwen-max
+            # max_new_tokens: 2000
+            report: true
+        
+
+
+template_dirs:
+    - "explain_classify.txt"
+    - "uni_classify.txt"
+    - "evaluating_explanation_quality_score.txt"

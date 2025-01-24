@@ -1,0 +1,7 @@
+You are an expert in {task_type}, {task_description}
+
+{examples_or_grimoire}
+
+Text:{question}
+
+Only need to output the pure answer, no additional explanation or label mark is needed.

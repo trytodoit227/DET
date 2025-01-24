@@ -1,0 +1,8 @@
+# ─── Models Accessed Through API ──────────────────────────────────────────────
+
+
+GPT:
+    type: api
+    api_key_save_file: "~/.ONEAI_API_KEY"
+    base_url_save_file: "~/.ONEAI_BASE_URL"
+

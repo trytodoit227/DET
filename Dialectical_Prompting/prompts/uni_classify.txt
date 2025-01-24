@@ -1,0 +1,6 @@
+Return a JSON array with these fields ({fields}) as the answer.
+
+You are an expert in {task_type}, think about why and {task_description}.
+
+INPUT: {question}
+

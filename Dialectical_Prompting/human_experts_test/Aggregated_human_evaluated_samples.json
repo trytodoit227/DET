@@ -1,0 +1,1545 @@
+{
+    "info": "Aggregated human evaluated samples for all datasets",
+    "results": [
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The sentence explicitly states that the previous case decision is being overruled. The use of the word 'hereby' indicates that this is an official and deliberate decision. The specific doctrines of 'duty-to-read' and 'imputed-knowledge' are mentioned, indicating that this overruling is limited to those specific points of law.\"",
+                "LM_pred_label": "overruling"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "where hollins is contradictory to the \"duty-to-read\" and \"imputed-knowledge\" doctrines, it is hereby overruled.",
+                "ans_text": "overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The sentence explicitly states that the previous cases mentioned (Thomas v. State, Davenport v. City of Birmingham, Ex parte Williams, and Howard v. State) are overruled. This indicates a clear intention to nullify the previous case decisions by establishing a different rule on the point of law involved.\"",
+                "LM_pred_label": "overruling"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "to the extent that this ruling is inconsistent with thomas v. state, 824 so.2d 1 (ala.crim.app. 1999), davenport v. city of birmingham, 570 so.2d 1298 (ala.crim.app. 1990), ex parte williams, 468 so.2d 99 (ala. 1985), and howard v. state, 108 ala. 571, 18 so. 813 (1895), those cases are overruled.",
+                "ans_text": "overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The sentence could be considered a non-overruling statement because it cites a specific case (Matter of Ginsberg, 1 NY2d 144) without indicating any conflicting decisions or changes in the law. While the respondent's felony conviction led to automatic disbarment, there is no explicit mention of a new rule or precedent being established that would overrule previous decisions.\"",
+                "LM_pred_label": "non_overruling"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "the various mitigating factors are unavailing because by virtue of his felony conviction, the respondent was automatically disbarred and ceased to be an attorney pursuant to judiciary law  90(4)(a) (see matter of ginsberg, 1 ny2d 144).",
+                "ans_text": "non_overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The sentence could be a non-overruling statement because the defendant is not challenging any previous case decision or establishing a new rule. Rather, he is simply arguing that the circuit court failed to conduct a proper inquiry into his posttrial claims of ineffective assistance of counsel. However, it is also possible that this sentence could be part of a larger argument that does involve overruling or establishing a new rule, so it cannot be definitively categorized as non-overruling without further context.\"",
+                "LM_pred_label": "non_overruling"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "46 defendant argues, in the alternative, that the circuit court failed to conduct a proper inquiry into his posttrial claims of ineffective assistance of counsel.",
+                "ans_text": "non_overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"This sentence is a non-overruling statement because it does not nullify a previous case decision or establish a different rule on the point of law involved. The sentence simply states that the district court considered and rejected the appellant's argument regarding the county's actions and their impact on the presumption of unfitness.\"",
+                "LM_pred_label": "non_overruling"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "the district court specifically considered and rejected appellant's argument that the county's action of failing to initiate termination proceedings involving s.j. after that child's birth in 2014, and of allowing appellant to parent a.s. and t.s. after their father became unavailable to parent them in 2015, provides sufficient evidence to overcome her presumption of unfitness.",
+                "ans_text": "non_overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The sentence is an overruling statement because it establishes a new rule that stale information cannot be used to establish probable cause, which may contradict previous case decisions that allowed the use of stale information in certain circumstances. This new rule establishes a different standard for establishing probable cause.\"",
+                "LM_pred_label": "non_overruling"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "stale information cannot be used to establish probable cause.",
+                "ans_text": "non_overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The sentence explicitly states that the holding in Trulock is being overruled, indicating a change in the rule of law. This is supported by the use of the word 'overrule' which is a legal term used to indicate a reversal of a previous decision. Therefore, this sentence is an overruling statement.\"",
+                "LM_pred_label": "overruling"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "we overrule the holding in trulock on this point.",
+                "ans_text": "overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The sentence explicitly states that the previous case decision in state ex rel. gore newspapers company v. tyson is overruled. This indicates that a different rule on the point of law involved has been established by the current court, nullifying the previous decision.\"",
+                "LM_pred_label": "overruling"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "accordingly, the decision of the district court is approved, state ex rel. gore newspapers company v. tyson, supra, is overruled, and the writ heretofore issued is discharged.",
+                "ans_text": "overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The sentence explicitly states that the decision must be overruled for reasons that will be stated. This indicates that the sentence is an overruling statement.\"",
+                "LM_pred_label": "overruling"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "we think that his analysis of peerless roll leaf co. v. griffin sons, was altogether correct, and that he had no alternative but to follow that decision; on the other hand, we now think that we were then wrong and that the decision must be overruled for reasons we shall state.",
+                "ans_text": "overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The sentence is an overruling statement because it explicitly disapproves a previous holding in Bignotti and establishes a different rule on the point of law involved in the present decision.\"",
+                "LM_pred_label": "overruling"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "we disapprove this holding in bignotti insofar as it conflicts with our present decision.",
+                "ans_text": "overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The sentence explicitly states that the previous case decision (Norris) is being overruled to the extent that it allows a certain use. This indicates a clear nullification of the previous decision by establishing a different rule on the point of law involved.\"",
+                "LM_pred_label": "overruling"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "we overrule norris to the extent that it allows such use.",
+                "ans_text": "overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The sentence explicitly states that the previous case decision (Davis) conflicts with the current opinion, and therefore it is overruled. This indicates that a different rule on the point of law involved has been established by the current court.\"",
+                "LM_pred_label": "overruling"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "insofar as davis conflicts with this opinion it is overruled.",
+                "ans_text": "overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The sentence may not be considered an overruling statement because it simply references a constitutional provision without indicating any conflicting interpretations or changes in the law. Without further context or explanation, it is not clear if this sentence is overturning any previous decisions.\"",
+                "LM_pred_label": "non_overruling"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "(cal. const., art. xiii c,  2, subds.",
+                "ans_text": "non_overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"This sentence is not an overruling statement because it does not explicitly reference any previous case decisions or statutes. It simply clarifies the standard for granting relief, which could be consistent with previous decisions or simply a refinement of existing law.\"",
+                "LM_pred_label": "non_overruling"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "\"\"stated differently, relief may be granted only where there 'is a probability sufficient to undermine confidence in the outcome,' i.e., there is a 'substantial, not just conceivable, likelihood of a different result.'\"\"",
+                "ans_text": "non_overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The sentence is a non-overruling statement because it does not nullify a previous case decision. It does not establish a different rule on the point of law involved. Instead, it states that ordering the parties to recalculate was not erroneous burden-shifting.\"",
+                "LM_pred_label": "non_overruling"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "ordering the parties to recalculate was not erroneous burden-shifting.",
+                "ans_text": "non_overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": false,
+            "pred_result": {
+                "why": "\"The sentence could be considered a non-overruling statement because it does not explicitly mention nullifying or contradicting any previous case decision or statute. Instead, it presents a consistent rule to be followed in future cases, indicating that it is not intended to overturn or establish a different rule on the point of law involved.\"",
+                "LM_pred_label": "non_overruling"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "we take this opportunity to announce a consistent, if not always clear-cut rule to be followed in future cases: both victim impact and victim character evidence are admissible, in the context of the mitigation special issue, to show the uniqueness of the victim, the harm caused by the defendant, and as rebuttal to the defendant's mitigating evidence.",
+                "ans_text": "overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The statement references a previous case, Marathon, which was expressly overruled by the court in Lima. This indicates that the court is establishing a different rule on the point of law involved, which is a key characteristic of an overruling statement.\"",
+                "LM_pred_label": "overruling"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "the court of appeal's statement that an acknowledgment must be coupled with a clear declaration of intent to interrupt prescription is apparently culled without attribution from stagni, supra, which in turn cites to marathon, supra, the case that was expressly overruled by this court in lima.",
+                "ans_text": "overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The sentence explicitly disapproves of a previous case decision (Darden v. General Motors Corp.) and its progeny, indicating that it nullifies the previous decision. This is a clear indication of an overruling statement.\"",
+                "LM_pred_label": "overruling"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "to the extent they are inconsistent with our analysis, we disapprove darden v. general motors corp., supra, 40 cal.app.4th 342, and its progeny, barr v. acands, inc. (1997) 57 cal.app.4th 1038.",
+                "ans_text": "overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The sentence explicitly states that the court is receding from a previous case decision, Rotenberry v. State, indicating that the current decision nullifies the previous one. This demonstrates an overruling judgment as it establishes a different rule on the point of law involved.\"",
+                "LM_pred_label": "overruling"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "we do recede from rotenberry v. state, 468 so.2d 971 (fla. 1985), to the extent that it may be read to be in conflict with this decision.",
+                "ans_text": "overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The sentence explicitly states that all prior holdings to the contrary on this point are overruled, including specific previous opinions. This indicates a clear intention to nullify previous case decisions and establish a different rule on the point of law involved.\"",
+                "LM_pred_label": "overruling"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "all prior holdings to the contrary on this point are overruled, including the two roselle opinions, supra.",
+                "ans_text": "overruling"
+            },
+            "dataset": "Overruling-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"On the other hand, the use of emojis like [rolling on the floor laughing] and [face with tears of joy] could indicate sarcasm or disbelief in the potential impact of a stock split on Tesla's price. This skepticism may stem from a lack of confidence in the company's fundamentals or skepticism about the effectiveness of stock splits as a value driver.\"",
+                "LM_pred_label": "bearish"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "Tesla maybe another stock split 10-1 can make this thing go up  [grinning face with smiling eyes]  [rolling on the floor laughing]   [face with tears of joy]  [grinning face with sweat]",
+                "ans_text": "bearish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"There is no clear indication of bullish sentiment in this input text.\"",
+                "LM_pred_label": "bullish"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "Apple to the  [crescent moon]  we ganna steal some bear money",
+                "ans_text": "bullish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The input text includes several bearish indicators. The mention of Boeing being 'awful close' suggests a negative sentiment towards the stock. The phrase 'gap down to 120 sounds about right' implies a further decrease in the stock price. The use of emojis such as [rolling on the floor laughing], [ship], [anchor], [chart decreasing], [bear], and [paw prints] all convey a bearish sentiment as well.\"",
+                "LM_pred_label": "bearish"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "Boeing Awful close. Gap down to 120 sounds about right.  [rolling on the floor laughing]  [ship]  [anchor]  [chart decreasing]  [bear]  [paw prints]",
+                "ans_text": "bearish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The comment states 'Tesla Sub 300 inbound worst event ever' and 'Getting slaughtered', indicating a negative sentiment towards Tesla's stock price. This pessimism could support a bearish outlook on the stock market.\"",
+                "LM_pred_label": "bearish"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "Tesla Sub 300 inbound worst event ever  [ewe]  Getting slaughtered Tendie Timeee!!!",
+                "ans_text": "bearish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The use of put options could also be interpreted as a bullish sentiment if the individual believes that the stock price will significantly decrease, allowing them to profit from the decline. Additionally, the fact that the individual is considering 'loading up' on puts suggests a high level of confidence in their bearish outlook, further supporting a bullish sentiment.\"",
+                "LM_pred_label": "bearish"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "NVIDIA $263 is when you load up the puts  [thumbs up]",
+                "ans_text": "bearish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The comment mentions Tesla returning to its actual price of $805, which implies a positive outlook on the stock's performance. Additionally, the use of emojis like [chart increasing] and [rocket] suggests optimism and growth potential in the stock.\"",
+                "LM_pred_label": "bullish"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "Tesla Next  Friday will return to its actual price of $ 805! [chart increasing]     [rocket]      [man shrugging light skin tone]",
+                "ans_text": "bullish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The comment also suggests confusion and uncertainty about the current state of Tesla and Elon Musk's activities. This could indicate potential for bearish sentiment as investors may be hesitant to invest in a company with unclear or uncertain developments.\"",
+                "LM_pred_label": "bearish"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "Tesla stock is taking and Elon is having Crypto Parties? Did i miss something [face with monocle]",
+                "ans_text": "bearish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The mention of an 'Island reversal gap' could be interpreted as a bearish signal for Tesla's stock. This pattern typically indicates a trend reversal, potentially signaling a downward movement in the stock price. Bearish investors may view this as a warning sign to exercise caution or consider selling their positions.\"",
+                "LM_pred_label": "bearish"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "Tesla Last Fri. I stated that this would gap down leaving the last 3 candles as an Island reversal gap....and there you go........ [bullseye]  [man student]",
+                "ans_text": "bearish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"Investors may be bearish on Tesla due to the commenter's sarcastic tone and disappointment with the Battery Day event. The fact that they expected the entire day to be dedicated to batteries and were let down could indicate that they don't believe Tesla's battery technology is as impressive as the company claims. This skepticism could lead to decreased demand for Tesla's products and potentially drive down stock prices.\"",
+                "LM_pred_label": "bearish"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "Tesla . Biggest Baddest Event in the world. BATTERY DAY. should have been called battery hour [grinning squinting face] . all this time i thought the entire day would be dedicated to talking about batteries, from 8 am to 8 pm. but i guess not",
+                "ans_text": "bearish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The comment expresses bearish sentiment towards Tesla's stock. The use of 'gap down' indicates a significant drop in the stock price, which is a negative indicator. The statement 'let it drop' further emphasizes the bearish sentiment. The use of the 'thumbs down' emoji also supports the bearish sentiment.\"",
+                "LM_pred_label": "bearish"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "Tesla another gap down tomorrow $600 , let it drop  [beaming face with smiling eyes]  [thumbs down] ",
+                "ans_text": "bearish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The input text suggests a bearish sentiment towards Tesla. The use of the phrase 'going back to the ground' implies a significant drop in the stock price. Additionally, the use of all caps and clapping hands suggests a strong conviction in this prediction. The phrase 'MARK MY WORDS' further emphasizes the certainty of the bearish sentiment.\"",
+                "LM_pred_label": "bearish"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "Tesla This is going back to the ground AH  [clapping hands]  MARK   MY   WORDS",
+                "ans_text": "bearish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"On the other hand, investors may interpret Tesla's statement as a lack of profitability in the near future, leading to concerns about the company's financial stability and ability to generate returns for shareholders. This could contribute to bearish sentiment among investors.\"",
+                "LM_pred_label": "bearish"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "Tesla Tesla told you they won\u2019t make money for 3 years [face with tears of joy]",
+                "ans_text": "bearish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The comment mentions holding puts, which are options contracts that profit when the stock price decreases. This indicates a bearish sentiment towards Tesla.\"",
+                "LM_pred_label": "bearish"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "Tesla old news  [yawning face] . Still holding my puts",
+                "ans_text": "bearish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The comment suggests that bears think bulls will sell at the end of the day, which could indicate that there is a high demand for Tesla stock. This could be a bullish sign as it suggests that investors are confident in the company's future prospects and are willing to hold onto their shares overnight. Additionally, the fact that bears are holding onto their shares overnight could indicate that they believe the stock will continue to perform well in the future.\"",
+                "LM_pred_label": "bullish"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "Tesla why do bears think bulls will\nSell eod and bears will hold overnight  [man facepalming dark skin tone] ",
+                "ans_text": "bullish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": false,
+            "pred_result": {
+                "why": "\"The comment implies that Tesla's success is solely dependent on Elon Musk, which could be a cause for concern for investors. If Musk were to leave the company or face any legal issues, it could negatively impact Tesla's stock price. This sentiment could support a bearish category.\"",
+                "LM_pred_label": "bearish"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "Tesla must be that song from Elon [face with rolling eyes]",
+                "ans_text": "bullish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The comment expresses strong confidence in Tesla's stock, indicating a belief that the price will continue to rise ('we going to mars'). The use of the rocket emoji further emphasizes the bullish sentiment, suggesting that the stock will 'take off' like a rocket.\"",
+                "LM_pred_label": "bullish"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "Tesla signs can\u2019t get clearer than this dont sell bulls we going to mars  [rocket]",
+                "ans_text": "bullish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The use of phrases like 'falling knife' and 'huge huge drop' conveys a strong bearish sentiment towards Carnival stock. This could be a warning sign for bearish investors who believe the stock is overvalued or facing significant challenges. They may interpret this as a signal to stay away from the stock or even consider shorting it to profit from the expected decline.\"",
+                "LM_pred_label": "bearish"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "Carnival this is going to drop huge huge today Falling knife!!  [grinning face with big eyes]",
+                "ans_text": "bearish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The comment mentions Apple reaching $500 a share before the stock split, indicating a positive outlook on the stock's performance. Additionally, the use of the emoji 'dizzy' suggests excitement or a sense of high expectations. The mention of the United States could also imply confidence in the market's stability and growth potential.\"",
+                "LM_pred_label": "bullish"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "Apple 500$ a pop before the stock split  [dizzy]    [chart increasing]    [United States]",
+                "ans_text": "bullish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The use of the word 'surprised' suggests that the commenter did not expect the stock to perform as well as it has. This could indicate that the stock has exceeded expectations and is performing better than anticipated, which could be seen as a positive sign for investors. Additionally, the use of the monocle emoji could suggest a sense of sophistication or intelligence, which could further support a bullish sentiment.\"",
+                "LM_pred_label": "bullish"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "Berkshire Hathaway So surprised at this run!  [face with monocle]",
+                "ans_text": "bullish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The comment suggests that Tesla's stock is performing well, with options generating significant profits. This could indicate positive market sentiment towards Tesla, leading to a bullish outlook.\"",
+                "LM_pred_label": "bullish"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "Tesla behaving like a slow-rising penny stock with the exception that all options are printing like the U.S. Mint  [candy]   [printer]  [money with wings]     [poultry leg]",
+                "ans_text": "bullish"
+            },
+            "dataset": "StockEmotions-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The tweet expresses support for Donald Trump's re-election campaign by using the hashtag #trump2020. Additionally, the tweet suggests that the 'radical leftists' pose a threat to democracy, implying that Trump is the candidate who can protect democracy from this perceived threat.\"",
+                "LM_pred_label": "SUPPORT"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "@USER if the states don't save democracy from the radical leftists, no one can - (or will be able to).. \ntruth\n\n#trump2020",
+                "ans_text": "SUPPORT"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"Opponents of Donald Trump may view this tweet as a criticism of his communication skills and his tendency to make offensive remarks. They may also see it as a call for accountability and responsibility in public discourse, rather than allowing individuals to say whatever they want without consequences.\"",
+                "LM_pred_label": "OPPOSITION"
+            },
+            "original_data": {
+                "ans_label": -1,
+                "text": "@USER they ought to have a sound proof booth and put trump in it so that when he's not to speak,they can easily shut him up!",
+                "ans_text": "OPPOSITION"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The input text states that 'trump sux,' indicating a negative opinion towards Donald Trump. This could oppose Donald Trump and support the category of opposing him.\"",
+                "LM_pred_label": "OPPOSITION"
+            },
+            "original_data": {
+                "ans_label": -1,
+                "text": "just remember that joe biden made animal crossing merch! trumps not a gamer trump sux",
+                "ans_text": "OPPOSITION"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The tweet suggests that Trump probably lost ground with his performance, indicating a negative outcome for him. This could align with those who oppose Donald Trump and view his actions as detrimental to his campaign.\"",
+                "LM_pred_label": "OPPOSITION"
+            },
+            "original_data": {
+                "ans_label": -1,
+                "text": "@USER @USER @USER it was a good night for biden politically. trump needed to make up a lot of ground. although trump played to his base he certainly won't have made up any ground on this performance. probably lost some more.",
+                "ans_text": "OPPOSITION"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The tweet mentions a high rate of turnover and implies that the current administration is a 'train wreck' that is headed for disaster. This could be seen as a reason to oppose Donald Trump, as he is the current president and therefore responsible for the state of the administration. Additionally, the use of the hashtag #biden2020 suggests that the author is in support of Biden, making opposition to Trump a possible stance for those who agree with the author's political views.\"",
+                "LM_pred_label": "OPPOSITION"
+            },
+            "original_data": {
+                "ans_label": -1,
+                "text": "@USER @USER @USER highest rate of turnover!  is it because people want to join? or because so many people need to leap from the train wreck before it completely goes off the cliff &amp; burns into an unrecognizable wreck on the trash heap of history?  we all know that answer!  the 2nd one.  #biden2020",
+                "ans_text": "OPPOSITION"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The input text does not provide any information that could be interpreted as either supporting or opposing Donald Trump. Therefore, it is neutral.\"",
+                "LM_pred_label": "NEURAL"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "stop yelling what the fuck\n\n#demdebate",
+                "ans_text": "NEURAL"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The input text does not provide any direct opposition or support for Donald Trump. Therefore, it can be considered neutral.\"",
+                "LM_pred_label": "NEURAL"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "*cough* george w. bush is worse *cough, cough*\n\n#demdebate",
+                "ans_text": "NEURAL"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The tweet expresses support for Donald Trump by using the hashtag #trump2020. The user also suggests that the Democrats have a history of stealing, implying that they may be responsible for any potential election fraud. This aligns with the narrative often promoted by Trump and his supporters that the election is rigged against him, and therefore, he needs support to win.\"",
+                "LM_pred_label": "SUPPORT"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "@USER @USER @USER uh, he\u2019s a tow truck driver. not necessarily employed by the #usps, he\u2019s allowed to express his wishes for the election process. if there is any stealing going on it\u2019ll likely by dems, they have a history of it. #trump2020",
+                "ans_text": "SUPPORT"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The tweet explicitly states that the author does not consider Donald Trump to be their president, and uses negative language to describe him as 'inept' and a 'nightmare.' This suggests a clear opposition to Trump and his policies among the author and potentially others who share their views. The use of the hashtag #votebluetoendthisnightmare also indicates a desire to vote against Trump and the Republican party in the upcoming election.\"",
+                "LM_pred_label": "OPPOSITION"
+            },
+            "original_data": {
+                "ans_label": -1,
+                "text": "@USER people are not happy that we have an inept and impeached for life occupant in the people\u2019s white house. #notmypresident #votebluetoendthisnightmare #votebluetosaveamerica2020 #vote #novemberiscoming #november3rd",
+                "ans_text": "OPPOSITION"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The tweet does not mention Donald Trump, so there is no direct indication of support or opposition. However, the use of an emoji could suggest a neutral or humorous tone.\"",
+                "LM_pred_label": "NEURAL"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "omg is bernie going to stroke out\ud83d\ude33\n#demdebate",
+                "ans_text": "NEURAL"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The use of patriotic symbols like the American flag and the term 'patriot' suggests a strong support for Donald Trump. The hashtags #trump2020 and #maga indicate a clear endorsement of Trump's reelection campaign. The mention of rebuilding for a third time could imply a belief in Trump's ability to lead the country successfully.\"",
+                "LM_pred_label": "SUPPORT"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "@USER just followed you, patriot! \ud83c\uddfa\ud83c\uddf8\n\ni'm rebuilding for a 3rd time....can y'all help a chick out?!\n\n#trump2020\n#maga",
+                "ans_text": "SUPPORT"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"Neutral individuals may view this tweet as a simple observation about a potential mispronunciation during the RNC 2020. They may not see it as a significant factor in forming an opinion about Donald Trump and may remain indifferent to the content of the tweet.\"",
+                "LM_pred_label": "NEURAL"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "omg it sounded so much like he said \u201cdonor\u201d, not \u201cdaughter\u201d - and i think that speaks for itself. #rnc2020",
+                "ans_text": "NEURAL"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": false,
+            "pred_result": {
+                "why": "\"The use of hashtags such as #maga and #trump suggests that the Twitter content is supportive of Donald Trump. Additionally, the phrase 'happy warrior' implies a positive attitude towards Trump's campaign. The mention of Fox News, a conservative news outlet, further supports a pro-Trump stance.\"",
+                "LM_pred_label": "SUPPORT"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "#thebeat #foxnews #cnn #maga \n.\n.\n.\n.\n.                   happy warrior #trump\n.           returns to entrenched bunker HTTP",
+                "ans_text": "NEURAL"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The tweet criticizes GOP thinking and advocates for voting blue to save America in 2020, suggesting opposition towards the Republican party and potentially Donald Trump. The use of hashtags like #gop and #votebluetosaveamerica2020 further reinforces the anti-Republican sentiment, indicating a stance against Donald Trump in the upcoming election.\"",
+                "LM_pred_label": "OPPOSITION"
+            },
+            "original_data": {
+                "ans_label": -1,
+                "text": "@USER seriously? so you  have nothing to think, write or say. this is such #gop thinking. nothing, nada. rien. #votebluetosaveamerica2020",
+                "ans_text": "OPPOSITION"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The tweet criticizes Trump as a 'clown' and expresses a desire for a less controversial figure to counterbalance left-leaning attitudes. This indicates opposition to Donald Trump, as it highlights a negative perception of his leadership style and suggests a preference for a different type of leader.\"",
+                "LM_pred_label": "OPPOSITION"
+            },
+            "original_data": {
+                "ans_label": -1,
+                "text": "@USER i truly dislike trump, and his meddling in private markets. it\u2019s more what countering forces can hold the left leaning socialist-lite attitudes of the west coast. ideally, the counter balance would be less of a clown.",
+                "ans_text": "OPPOSITION"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The Twitter content regarding the US Presidential election input text below could oppose Donald Trump because it includes the hashtag #biden2020, which suggests support for Joe Biden's campaign. Additionally, the lack of any positive or negative aspects of Donald Trump's campaign or presidency could be interpreted as a lack of support for him. Therefore, opponents of Donald Trump may interpret this as a sign of growing support for Joe Biden and his campaign.\"",
+                "LM_pred_label": "OPPOSITION"
+            },
+            "original_data": {
+                "ans_label": -1,
+                "text": "@USER @USER biden\u2019s  favorite movie #biden2020 HTTP",
+                "ans_text": "OPPOSITION"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"Neutral observers may see this tweet as a relatively innocuous comment about a potential occurrence at the Republican National Convention. The tweet does not explicitly express support or opposition for Donald Trump, and it is unclear how it relates to his political stance or policies. As such, neutral observers may not see this tweet as particularly relevant to their evaluation of Donald Trump as a political figure.\"",
+                "LM_pred_label": "NEURAL"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "i bet you this kid is going to fake a stutter... #rnc2020",
+                "ans_text": "NEURAL"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The Twitter content includes the hashtag #maga, which stands for Make America Great Again, a slogan commonly associated with Donald Trump's campaign. This indicates strong support for Trump and his policies, as the individual is expressing enthusiasm for his re-election. Additionally, the use of exclamation marks conveys a sense of excitement and positivity towards Trump's presidency.\"",
+                "LM_pred_label": "SUPPORT"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "four more years!!! #maga HTTP",
+                "ans_text": "SUPPORT"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The input text includes hashtags related to Joe Biden's presidential campaign, such as #biden2020tosaveamerica, #biden2020, #biden2020landslide, and #bidenforpresident. This suggests opposition to Donald Trump and supports the category of opposing him.\"",
+                "LM_pred_label": "OPPOSITION"
+            },
+            "original_data": {
+                "ans_label": -1,
+                "text": "@USER start by removing @USER #biden2020tosaveamerica #biden2020 #biden2020landslide #bidenforpresident",
+                "ans_text": "OPPOSITION"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": false,
+            "pred_result": {
+                "why": "\"Opponents of Donald Trump may use this tweet as evidence of his problematic behavior and rhetoric. They may argue that Trump has a history of making inflammatory statements and engaging in divisive behavior, which is not suitable for a president. They may also point out that the tweet does not mention any positive actions or statements made by Trump, which they believe are necessary for a president to lead effectively.\"",
+                "LM_pred_label": "OPPOSITION"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "@USER @USER i\u2019m not talking about proud boys. i\u2019m talking about everything else trump has ever said and done.",
+                "ans_text": "NEURAL"
+            },
+            "dataset": "Stance_for_Trump-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The hypothesis does not necessarily entail the premise because it only states that Microsoft would spend 500 million dollars, while the premise mentions that the company lost that amount due to software theft. The hypothesis could be referring to a different context or scenario where Microsoft would spend that amount without necessarily losing it due to theft.\"",
+                "LM_pred_label": "not entailment"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "PREMISE:Microsoft for instance, one of the world's largest software companies, lost more than an estimated 500 million dollars last year because of software theft.\nHYPOTHESIS: Microsoft would spend 500 million dollars.",
+                "ans_text": "not entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The hypothesis does not necessarily entail the premise because it only provides a percentage of people infected with HIV in Africa, without specifying the exact number of people infected in Nigeria. The premise only provides information about the number of people infected with HIV in Nigeria, but not in other African countries. Therefore, the hypothesis could be true even if the premise is false, as there could be more than 2.7 million people infected with HIV in other African countries.\"",
+                "LM_pred_label": "not entailment"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "PREMISE:In Nigeria, by far the most populous country in sub-Saharan Africa, over 2.7 million people are infected with HIV.\nHYPOTHESIS: 2.7 percent of the people infected with HIV live in Africa.",
+                "ans_text": "not entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The premise does not necessarily entail the hypothesis because it only states that the witness spotted Rodriguez crouching behind a gate for protection. It does not provide any information about whether or not the witness actually rescued Rodriguez. The witness could have simply spotted Rodriguez and left him there without rescuing him.\"",
+                "LM_pred_label": "not entailment"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "PREMISE:The witness then spotted Rodriguez crouching behind a gate for protection.\nHYPOTHESIS: The witness rescued Rodriguez.",
+                "ans_text": "not entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The hypothesis that Robert Kubica has been appointed by Scuderia Ferrari is not supported by the premise. The premise only mentions that Robert Kubica won the pole and finished third on the podium, with Nick Heidfeld finishing fourth. It also states that BMW is the new leader of the Constructors' championship, one point ahead of Scuderia Ferrari. There is no mention of Robert Kubica being appointed by Scuderia Ferrari, so this hypothesis is not supported by the information provided in the premise.\"",
+                "LM_pred_label": "not entailment"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "PREMISE:Pole Robert Kubica became the highlight of the weekend by winning the pole, but was slow off the start and finished third on the podium. Nick Heidfeld, his BMW Sauber teammate finished fourth. The results puts BMW as the new leader of the Constructors' championship, one point ahead of Scuderia Ferrari. Heikki Kovalainen came fifth and became the only McLaren driver to finish in the points. Jarno Trulli (Toyota) and Mark Webber (Red Bull-Renault) ran 6 and 7 places respectively with Nico Rosberg (Williams-Toyota) closing out the top eight with 1 point. Timo Glock (Toyota) was engaged in a hard battle with Fernando Alonso (Renault) and came 9th ahead of the Spanish 2005 F1 Champion.\nHYPOTHESIS: Robert Kubica has been appointed by Scuderia Ferrari.",
+                "ans_text": "not entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The premise only mentions the publishing companies and the cover art of the seventh Harry Potter book. It does not directly state that J.K. Rowling is the author of the book. Therefore, the hypothesis cannot be inferred from the premise alone.\"",
+                "LM_pred_label": "not entailment"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "PREMISE:The publishing companies Bloomsbury (U.K.) and Scholastic (U.S.) released cover art for the seventh Harry Potter book, Harry Potter and the Deathly Hallows. \"The structures around Harry show evident destruction and in the shadows behind him, we see outlines of other people,\" David Saylor, Scholastic's art director, said in a statement describing the U.S. version. \"For the first time, the cover is a wraparound. On the back cover spidery hands are outstretched toward Harry. Only when the book is opened does one see a powerful image of \"He-Who-Must-Not-Be-Named\", his glowing red eyes peering out from his hood.\"\nHYPOTHESIS: Rowling is the author of \"Harry Potter\".",
+                "ans_text": "not entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The premise provides information that Tropical Storm Irene is located south-southeast of Bermuda and is moving in a west-northwest direction with sustained winds of 40 miles per hour. The National Hurricane Center of Miami, Florida also reported that the storm may develop into a hurricane and hit the east coast of the United States. These details strongly suggest that the hypothesis is true and can be inferred with high confidence from the premise, indicating an entailment relationship.\"",
+                "LM_pred_label": "entailment"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "PREMISE:Tropical Storm Irene on August 11, 2005 at 16:15 UTC. Tropical Storm Irene will increase in strength over the next several days, possibly developing into   a hurricane that will hit the east coast of the United States, said the National Hurricane Center of Miami, Florida in a report today.  Irene was located approximately 975 kilometers south-southeast of Bermuda at 16:00 UTC today. Forecasters say that the storm is now moving in a west-  northwest direction with top sustained winds of 40 miles per hour.\nHYPOTHESIS: A storm called Irene is going to approach the east coast of the US.",
+                "ans_text": "entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": false,
+            "pred_result": {
+                "why": "\"The premise explicitly states that the massacre against Fenastras was carried out in response to a military attack on the army staff by FMLN. Therefore, it can be inferred that FMLN was responsible for the attack on Fenastras. Thus, the relationship between the premise and hypothesis can be classified as entailment.\"",
+                "LM_pred_label": "entailment"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "PREMISE:FMLN reports to our people, and to the people of the world, that the massacre against the Salvadoran Workers National Union Federation [Fenastras] was carried out by Colonel Elena Fuente, as the head of the morbid death squad of the army's 1st Infantry Brigade, in response to our military attack on the army staff.\nHYPOTHESIS: Fenastras was attacked by FMLN.",
+                "ans_text": "not entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The hypothesis is supported by the premise because it confirms that Armstrong was the first man to walk on the Moon during the Apollo XI mission, which implies that he must have landed on the Moon first. The premise also provides a direct quote from Armstrong that reinforces the idea that he was the first man to walk on the Moon. Therefore, the relationship between the premise and hypothesis is entailment.\"",
+                "LM_pred_label": "entailment"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "PREMISE:As spacecraft commander for Apollo XI, the first manned lunar landing mission, Armstrong was the first man to walk on the Moon. \"That's one small step for a man, one giant leap for mankind.\" With these historic words, man's dream of the ages was fulfilled.\nHYPOTHESIS: Neil Armstrong was the first man who landed on the Moon.",
+                "ans_text": "entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": false,
+            "pred_result": {
+                "why": "\"The hypothesis does not necessarily entail the premise because it is possible that the other people who were wounded were not involved in the clashes between Israeli forces and gunmen. The premise specifically mentions that the wounded were hospital officials, which suggests that they may have been medical personnel rather than civilians caught in the crossfire. Additionally, the premise does not provide any information about the cause of the other people's injuries, so it is unclear whether they were related to the clashes or not.\"",
+                "LM_pred_label": "not entailment"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "PREMISE:In clashes between Israeli forces and gunmen, one Palestinian was killed and 10 wounded, hospital officials said.\nHYPOTHESIS: A Palestinian was killed and other people were wounded.",
+                "ans_text": "entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The hypothesis does not entail the premise because it specifically mentions mice being fed with red wine, while the premise states that mice were given a substance found in red wine. This distinction in the method of administration of the substance could lead to different results and outcomes.\"",
+                "LM_pred_label": "not entailment"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "PREMISE:Mice given a substance found in red wine lived longer despite a fatty diet, a study shows.\nHYPOTHESIS: Mice fed with red wine lived longer despite a fatty diet.",
+                "ans_text": "not entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The premise discusses the evacuation of deceased U.S. soldiers and their effects, not living U.S. citizens. The focus is on the transportation of remains for interment, not the evacuation of living individuals.\"",
+                "LM_pred_label": "not entailment"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "PREMISE:Deceased U.S. soldiers and their effects were evacuated to Japan and then shipped home in refrigerated containers for interment in the U.S.\nHYPOTHESIS: The U.S. military evacuated U.S. citizens.",
+                "ans_text": "not entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": false,
+            "pred_result": {
+                "why": "\"The hypothesis could entail the premise if it is interpreted as a contradiction. If marine vegetation is being harvested in Puget Sound despite its vital role in providing habitat to important species, then it would contradict the premise that sea-weed harvesting is not allowed in the same area. However, this interpretation relies on the assumption that the hypothesis is referring to marine vegetation harvesting in Puget Sound specifically, and not in other locations.\"",
+                "LM_pred_label": "entailment"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "PREMISE:The harvest of sea-weeds is not allowed in the Puget Sound because of marine vegetation's vital role in providing habitat to important species.\nHYPOTHESIS: Marine vegetation is  harvested.",
+                "ans_text": "not entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The hypothesis directly states that Claretta Petacci was Mussolini's last mistress, which is supported by historical facts. While the premise provides additional information about Claretta Petacci's behavior, it does not contradict the hypothesis that she was Mussolini's mistress. The relationship between Claretta Petacci and Mussolini is a known fact, and the premise does not provide any evidence to refute this claim.\"",
+                "LM_pred_label": "entailment"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "PREMISE:We learn that Claretta Petacci, Mussolini's last mistress, had a tendency to whine and to lie all day in bed, eating chocolate.\nHYPOTHESIS: Claretta Petacci was Mussolini's last mistress.",
+                "ans_text": "entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The hypothesis cannot be inferred from the premise because Albright's statement in the premise does not explicitly mention anything about the deaths of Iraqi children being 'worth it' to punish Saddam Hussein. The premise only suggests that Albright believed it was America's responsibility to prevent another Gulf War.\"",
+                "LM_pred_label": "not entailment"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "PREMISE:When Albright was the US ambassador to the United Nations, Lesley Stahl of \"60 Minutes\" asked her about the sanctions and the deaths of Iraqi children. Albright said it was America's responsibility to make sure the Gulf War did not have to be fought again.\nHYPOTHESIS: Albright said that to punish Saddam Hussein, the deaths of those children were \"worth it.\"",
+                "ans_text": "not entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The premise does not explicitly state that Bush will meet al-Maliki in Hadley. It only mentions that Jordan was chosen as the site of the meeting because of its support for the unity government in Iraq and Bush's presence in the region. Therefore, the hypothesis cannot be inferred from the premise.\"",
+                "LM_pred_label": "not entailment"
+            },
+            "original_data": {
+                "ans_label": 0,
+                "text": "PREMISE:Hadley said Jordan was chosen as the site of the meeting between Bush and al-Maliki because of its support for the unity government in Iraq and the fact that Bush would be in the region.\nHYPOTHESIS: Bush will meet al-Maliki in Hadley.",
+                "ans_text": "not entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The premise explicitly mentions that Jack Kevorkian is 'famed as \"",
+                "LM_pred_label": "entailment"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "PREMISE:A jury is slated to decide for the first time whether Jack Kevorkian, famed as \"Dr. Death,\" has violated Michigan's assisted-suicide ban, while the state continues to grapple with the issue of what to allow when the ill want to end their pain by ending their lives.\nHYPOTHESIS: Jack Kevorkian is the real name of \"Dr. Death\".",
+                "ans_text": "entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The premise and hypothesis both discuss the Kota as a business district, with the premise mentioning it as the central business district and Indonesia's financial capital. The hypothesis further reinforces this by stating that the Kota is the country's business center, which aligns with the information provided in the premise. Therefore, the hypothesis can be inferred from the premise as it builds upon the information provided.\"",
+                "LM_pred_label": "entailment"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "PREMISE:The Kota ( \"Fort\" ), or Old City, for example, sometimes called the downtown section, is the central business district and Indonesia's financial capital.\nHYPOTHESIS: The Kota is the country's business center.",
+                "ans_text": "entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The hypothesis can be considered as an entailment because it logically follows from the premise. The premise states that Vladislav Listyev was shot in the heart by an unknown gunman outside his Moscow home, which strongly suggests that he was murdered. The fact that the attack is linked to opponents of an advertising ban he had proposed for the television channel further supports the hypothesis that he was murdered. Therefore, the hypothesis can be inferred with a high degree of certainty from the information provided in the premise.\"",
+                "LM_pred_label": "entailment"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "PREMISE:Russian Public Television head Vladislav Listyev is shot in the heart by an unknown gunman outside his Moscow home. The attack is linked to opponents of an advertising ban he had proposed for the television channel.\nHYPOTHESIS: Vladislav Listyev was murdered in Moscow.",
+                "ans_text": "entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The premise explicitly states that the earthquake was felt in the southern Indian city of Madras, which implies that Madras is located in Southern India. Additionally, the premise mentions that the earthquake was felt in other parts of south India, further supporting the hypothesis that Madras is located in Southern India.\"",
+                "LM_pred_label": "entailment"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "PREMISE:Sunday's earthquake was felt in the southern Indian city of Madras on the mainland, as well as other parts of south India. The Naval meteorological office in Port Blair said it was the second biggest aftershock after the Dec. 26 earthquake.\nHYPOTHESIS: The city of Madras is located in Southern India.",
+                "ans_text": "entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The hypothesis can be inferred from the premise because it explicitly states that Brown's counterpart is Wu Yi, and the premise mentions Wu Yi as the Foreign Trade Minister. This suggests that Wu Yi holds a position of authority in the Chinese government related to foreign trade. Therefore, the relationship between the premise and hypothesis is one of entailment.\"",
+                "LM_pred_label": "entailment"
+            },
+            "original_data": {
+                "ans_label": 1,
+                "text": "PREMISE:Brown brushed off a threat made Monday by his counterpart, Foreign Trade Minister Wu Yi, that if China's effort to join the General Agreement on Tariffs and Trade (GATT) by the year's end is unsuccessful, Beijing will no longer be bound by previous trade and economic commitments.\nHYPOTHESIS: Wu Yi is the Foreign Trade Minister of China.",
+                "ans_text": "entailment"
+            },
+            "dataset": "RTE-ourmethod"
+        },
+        {
+            "correct": false,
+            "pred_result": {
+                "why": "\"The input text could support hate speech because it expresses a strong negative sentiment towards a specific group of people, in this case, leaders. The use of the word 'hate' and the statement 'we are not electing good leaders we are electing criminals' could be seen as derogatory and dehumanizing towards leaders. This type of language can contribute to a hostile environment and incite violence or discrimination against leaders.\"",
+                "LM_pred_label": "hate"
+            },
+            "original_data": {
+                "ans_text": "no hate",
+                "text": "WE HATE OUR LEADERS. LEARN FROM EROPEANS AND LEARN FROM AMERICANS. THEY ARE BETTER THAN OUR LEADERS.WE ARE NOT ELECTING GOOD LEADRES WE ARE ELECTING CRIMINALS."
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The statement 'May history be on the right side this time' could also be interpreted as a call for positive change and progress, without promoting hate speech. It could be seen as a hopeful message for a better future, rather than promoting discrimination or prejudice.\"",
+                "LM_pred_label": "no hate"
+            },
+            "original_data": {
+                "ans_text": "no hate",
+                "text": "Here in 2019. May history be on the right side this time."
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The statement 'Some of the lyrics are wrong' could also be categorized as not hate speech because it is simply pointing out an error or mistake in the lyrics without any intention of causing harm or promoting discrimination. It could be seen as constructive criticism or feedback.\"",
+                "LM_pred_label": "no hate"
+            },
+            "original_data": {
+                "ans_text": "no hate",
+                "text": "Some of the lyrics are wrong"
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"On the other hand, the statement could also be interpreted as a personal opinion or expression of enthusiasm for the Pokemon game. It may not necessarily be intended to harm or discriminate against others, but rather to share a positive sentiment about a popular game franchise.\"",
+                "LM_pred_label": "no hate"
+            },
+            "original_data": {
+                "ans_text": "no hate",
+                "text": "Pokemon is the best game ever"
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The text may be interpreted as a playful or sarcastic comment rather than a malicious attack. The mention of a 'hot librarian' look could be seen as a light-hearted attempt at humor, rather than a serious form of hate speech.\"",
+                "LM_pred_label": "no hate"
+            },
+            "original_data": {
+                "ans_text": "no hate",
+                "text": "When lift your arms do your \u201a\u00c4\u00faboobs\u201a\u00c4\u00f9 go away? They look like mosquito bites and I feel like you were trying for the \u201a\u00c4\u00f2hot librarian' look but ended up with the \u201a\u00c4\u00f2old librarian' look."
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The use of the phrase 'we are all one' and the call for 'one love and peace' suggests a message of unity and inclusivity. The statement 'can't we just stop and let's be happy for just one day' implies a desire for a break from conflict and a focus on positivity. Overall, the message seems to be one of promoting harmony and understanding among all people.\"",
+                "LM_pred_label": "no hate"
+            },
+            "original_data": {
+                "ans_text": "no hate",
+                "text": "I'm sick and tired of this black and white thing....can't we just stop and let's be happy for just one day.....we are all one let's stop this please... One love and peace."
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": false,
+            "pred_result": {
+                "why": "\"The input could support hate speech against white people because it uses the word 'hate' in reference to white flour and white sugar, which are then equated to 'white deaths.' This equation could be interpreted as a derogatory reference to white people, implying that they are responsible for causing harm or death. Additionally, the use of the term 'white' in this context could be seen as a racial slur.\"",
+                "LM_pred_label": "hate"
+            },
+            "original_data": {
+                "ans_text": "no hate",
+                "text": "I hate white flour and white sugar. Are two of the three white deaths!!"
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The input text could support the hate speech category because it makes a sweeping and derogatory statement about an entire religion, Islam, associating it with terrorism. This statement is not only false but also harmful as it perpetuates negative stereotypes and fuels Islamophobia.\"",
+                "LM_pred_label": "hate"
+            },
+            "original_data": {
+                "ans_text": "hate",
+                "text": "Islam is  the home of terriorism ."
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The input text could support hate speech because it uses derogatory language and stereotypes towards women, referring to them as 'whores'. This dehumanizing language perpetuates harmful attitudes and beliefs towards women, contributing to a culture of misogyny and discrimination.\"",
+                "LM_pred_label": "hate"
+            },
+            "original_data": {
+                "ans_text": "hate",
+                "text": "Do women born to be whores? Ot they develop it later"
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": false,
+            "pred_result": {
+                "why": "\"This input could support no hate speech categories because it simply describes a peaceful world before the arrival of white people. It does not make any derogatory or discriminatory statements towards any specific group, and therefore does not qualify as hate speech.\"",
+                "LM_pred_label": "no hate"
+            },
+            "original_data": {
+                "ans_text": "hate",
+                "text": "The world before white people. 1 word 8 letters. PEACEFUL"
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The input text could support hate speech because it contains a derogatory term 'pissful' that is used to describe Islam. This term is offensive and disrespectful to Muslims and their religion. It promotes negative stereotypes and reinforces Islamophobia, which can lead to discrimination and violence against Muslims.\"",
+                "LM_pred_label": "hate"
+            },
+            "original_data": {
+                "ans_text": "hate",
+                "text": "He is right. Islam is indeed very pissful."
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The use of the term 'gay' in a derogatory manner implies homophobia and discrimination towards LGBTQ+ individuals. Associating gay individuals with AIDS perpetuates harmful stereotypes and stigmatization.\"",
+                "LM_pred_label": "hate"
+            },
+            "original_data": {
+                "ans_text": "hate",
+                "text": "I didn't know future gay gym teachers had to take AIDS tests."
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"This input could support the idea of religious tolerance and appreciation for the peaceful nature of certain religions. By highlighting the peaceful nature of religions like Buddhism and Jainism, it could be seen as promoting understanding and respect for different beliefs and practices.\"",
+                "LM_pred_label": "no hate"
+            },
+            "original_data": {
+                "ans_text": "no hate",
+                "text": "The most peaceful religions came from India like Buddhism, jainism etc."
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The input text contains ableist language, specifically the use of the word 'retarded', which is derogatory towards individuals with intellectual disabilities. This language perpetuates harmful stereotypes and contributes to a culture of discrimination and exclusion. Additionally, the use of profanity and insults towards the individual's appearance and intelligence suggests a lack of empathy and respect for others, which can also be indicative of hate speech.\"",
+                "LM_pred_label": "hate"
+            },
+            "original_data": {
+                "ans_text": "hate",
+                "text": "Ugly long chin brainless problematic mother fucker he looks retarded"
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The use of derogatory terms like 'disgusting' and 'sick' to describe someone who is queer is a clear example of hate speech. The suggestion for the individual to 'kill yourself' is a direct call for harm and violence, further emphasizing the hateful nature of the statement.\"",
+                "LM_pred_label": "hate"
+            },
+            "original_data": {
+                "ans_text": "hate",
+                "text": "Disgusting sick queer kill yourself"
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The input text could support no hate speech categories because it does not contain any explicit or implicit derogatory language towards the girl mentioned. The statement expresses a desire to be lucky like her, which could be seen as a compliment rather than an insult. Additionally, the use of the word 'luck' suggests that the speaker acknowledges that the girl's good fortune is not a result of her own actions, which could be interpreted as a form of respect.\"",
+                "LM_pred_label": "no hate"
+            },
+            "original_data": {
+                "ans_text": "no hate",
+                "text": "What a luck girl she is! I wish I was just that lucky"
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The input text contains hate speech because it advocates for violence against a specific religious group, Islam. The use of the phrase 'burn them all down' and 'kick Islam out of EU' suggests a desire for physical harm and exclusion of Muslims from society. Additionally, the use of profanity ('Fuck Islam') reinforces the hostile and derogatory tone of the message.\"",
+                "LM_pred_label": "hate"
+            },
+            "original_data": {
+                "ans_text": "hate",
+                "text": "Burn them all down and kick Islam out of EU...We support you...Fuck Islam."
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The input text could support the no hate category because it emphasizes the need for love, care, sympathy, and empathy in the world. It promotes positive values and encourages unity and understanding among people.\"",
+                "LM_pred_label": "no hate"
+            },
+            "original_data": {
+                "ans_text": "no hate",
+                "text": "Stop war. Lead, Radiation, chemicals is killing this earth.\u00a0 Share, care, sympathy, and empathy most of all Love is needed in this world."
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The text could support no hate speech because it simply expresses pride in one's religious and national identity, which is a common sentiment among many individuals. The statement does not contain any derogatory language or promote harm towards any particular group, and therefore does not necessarily constitute hate speech.\"",
+                "LM_pred_label": "no hate"
+            },
+            "original_data": {
+                "ans_text": "no hate",
+                "text": "We are proud to be an Indian Muslim"
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The input text promotes hate speech because it advocates for the killing of a specific group of people based on their race and music preference. The statement is a clear example of racism and discrimination, which can incite violence and hatred towards white people who enjoy rap music. The use of violent language and the threat of death is a direct attack on the human rights of individuals and can cause harm to the targeted group.\"",
+                "LM_pred_label": "hate"
+            },
+            "original_data": {
+                "ans_text": "hate",
+                "text": "Anyone who listens to rap and is white is not part of the ethnostate and will be put to death."
+            },
+            "dataset": "ethos-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"The value of HEDONISM may not have a significant impact on whether someone would choose to work in shipping. This decision may be more influenced by factors such as job availability, personal interests, skills, and qualifications rather than the pursuit of pleasure and enjoyment.\"",
+                "LM_pred_label": "IRRELEVANCE"
+            },
+            "original_data": {
+                "text": "If you are someone who values HEDONISM, will you do or say:I work in shipping",
+                "ans_label": 0,
+                "ans_text": "IRRELEVANCE"
+            },
+            "dataset": "values-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"If someone values benevolence, they may reject the idea of telling their daughter that they do not want her to be a step parent because it goes against their desire to be kind and compassionate towards others. Rejecting this statement aligns with their values and beliefs, and they would likely choose not to say this.\"",
+                "LM_pred_label": "REJECTION"
+            },
+            "original_data": {
+                "text": "If you are someone who values BENEVOLENCE, will you do or say:telling my daughter I don't want her to be a step parent",
+                "ans_label": -1,
+                "ans_text": "REJECTION"
+            },
+            "dataset": "values-ourmethod"
+        },
+        {
+            "correct": false,
+            "pred_result": {
+                "why": "\"For someone who values SECURITY, the decision to affirm or reject not wanting their young sons to experience a family funeral may be irrelevant. This value may not directly impact their stance on the matter, as their concern for security may not be a determining factor in this specific situation.\"",
+                "LM_pred_label": "IRRELEVANCE"
+            },
+            "original_data": {
+                "text": "If you are someone who values SECURITY, will you do or say:not wanting my 5/6 year old sons to experience a family funeral",
+                "ans_label": 1,
+                "ans_text": "AFFIRMATION"
+            },
+            "dataset": "values-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"For someone who values BENEVOLENCE, refusing to give money for their siblings' tuition fees may go against their core belief in helping others. Saying 'No, I would not say this' reflects a rejection of the value of benevolence in this particular scenario.\"",
+                "LM_pred_label": "REJECTION"
+            },
+            "original_data": {
+                "text": "If you are someone who values BENEVOLENCE, will you do or say:refusing to give my parents money for my siblings tuition fees",
+                "ans_label": -1,
+                "ans_text": "REJECTION"
+            },
+            "dataset": "values-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"For someone who values SECURITY, the decision to not finish their friend's work may be irrelevant in determining their attitude. This value may not directly impact their choice in this situation, as it does not necessarily relate to their own sense of security or safety.\"",
+                "LM_pred_label": "IRRELEVANCE"
+            },
+            "original_data": {
+                "text": "If you are someone who values SECURITY, will you do or say:not finishing my friend's work",
+                "ans_label": 0,
+                "ans_text": "IRRELEVANCE"
+            },
+            "dataset": "values-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"If someone values POWER, they may choose to reject saying this because they may believe that admitting to their mistake shows weakness, which goes against their value of power. They may also believe that the consequences of admitting to their mistake could harm their reputation and power.\"",
+                "LM_pred_label": "REJECTION"
+            },
+            "original_data": {
+                "text": "If you are someone who values POWER, will you do or say:I ran a red light while trying to drive home high last night.",
+                "ans_label": -1,
+                "ans_text": "REJECTION"
+            },
+            "dataset": "values-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"If someone values security, but they do not believe that their sister applying for the same position would actually threaten their job stability, they may consider this value irrelevant to their attitude choice. In this case, they would likely say that this value does not determine whether they would want their sister to apply for the same position as them.\"",
+                "LM_pred_label": "IRRELEVANCE"
+            },
+            "original_data": {
+                "text": "If you are someone who values SECURITY, will you do or say:not wanting my sister to apply for the same position as me",
+                "ans_label": 0,
+                "ans_text": "IRRELEVANCE"
+            },
+            "dataset": "values-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"If someone values security, they may view not checking their food and leaving without a part of their order as a potential risk to their safety. Therefore, they would likely say 'No, I would not leave without checking the food and making sure we have everything we ordered' to prioritize their value of security.\"",
+                "LM_pred_label": "REJECTION"
+            },
+            "original_data": {
+                "text": "If you are someone who values SECURITY, will you do or say:not checking food we bought and leaving without a part of our order",
+                "ans_label": -1,
+                "ans_text": "REJECTION"
+            },
+            "dataset": "values-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"For someone who values HEDONISM, this statement may not be relevant to their attitude choice. They may not see the connection between their value and the statement, and therefore, it does not influence their decision to say it or not.\"",
+                "LM_pred_label": "IRRELEVANCE"
+            },
+            "original_data": {
+                "text": "If you are someone who values HEDONISM, will you do or say:I thinks it\u2019s funny that people get so angry when someone corrects their grammar or spelling. It\u2019s not our fault you\u2019re an illiterate idiot.",
+                "ans_label": 0,
+                "ans_text": "IRRELEVANCE"
+            },
+            "dataset": "values-ourmethod"
+        },
+        {
+            "correct": false,
+            "pred_result": {
+                "why": "\"The value of SELF-DIRECTION may not have a direct impact on whether someone chooses to wait before checking texts and replying. This behavior may be influenced by other factors such as social norms or personal preferences. Therefore, the value of self-direction may be irrelevant in determining whether someone would say or do this.\"",
+                "LM_pred_label": "IRRELEVANCE"
+            },
+            "original_data": {
+                "text": "If you are someone who values SELF-DIRECTION, will you do or say:I often wait some time before checking texts and replying, so the other person doesn\u2019t feel that I\u2019m desperate to talk to them, even though most of the time I am.",
+                "ans_label": 1,
+                "ans_text": "AFFIRMATION"
+            },
+            "dataset": "values-ourmethod"
+        },
+        {
+            "correct": false,
+            "pred_result": {
+                "why": "\"If someone values self-direction, they are likely to have a strong sense of autonomy and independence. They would not want to say or do something that goes against their personal beliefs or values. Therefore, they would reject the idea of saying 'I am a disgusting human being' as it goes against their self-directed values and would not align with their sense of self-worth.\"",
+                "LM_pred_label": "REJECTION"
+            },
+            "original_data": {
+                "text": "If you are someone who values SELF-DIRECTION, will you do or say:I am a disgusting human being.",
+                "ans_label": 0,
+                "ans_text": "IRRELEVANCE"
+            },
+            "dataset": "values-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"If someone values HEDONISM, they may prioritize immediate pleasure and gratification, which could lead them to affirm wanting to gain at least 15 pounds immediately as it may bring them enjoyment and satisfaction.\"",
+                "LM_pred_label": "AFFIRMATION"
+            },
+            "original_data": {
+                "text": "If you are someone who values HEDONISM, will you do or say:I want to be gain at least 15 pounds immediately",
+                "ans_label": 1,
+                "ans_text": "AFFIRMATION"
+            },
+            "dataset": "values-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"Valuing UNIVERSALISM may not directly impact the decision to not know their boyfriend's social media accounts. This value focuses more on promoting understanding, appreciation, tolerance, and protection for the welfare of all people and nature, which may not be directly related to social media habits.\"",
+                "LM_pred_label": "IRRELEVANCE"
+            },
+            "original_data": {
+                "text": "If you are someone who values UNIVERSALISM, will you do or say:I don't know any of my boyfriends social media's and its honestly amazing.",
+                "ans_label": 0,
+                "ans_text": "IRRELEVANCE"
+            },
+            "dataset": "values-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"If someone values SECURITY, they may prioritize finding a peaceful and non-confrontational solution to conflicts. Yelling at someone for eating their food could be seen as an aggressive and unnecessary response, and may not align with their values of maintaining a secure and peaceful environment. Therefore, someone who values SECURITY may choose to reject the idea of yelling at their sister for eating their food.\"",
+                "LM_pred_label": "REJECTION"
+            },
+            "original_data": {
+                "text": "If you are someone who values SECURITY, will you do or say:yelling at my sister for eating my food",
+                "ans_label": -1,
+                "ans_text": "REJECTION"
+            },
+            "dataset": "values-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"If someone values ACHIEVEMENT, they are likely to see the statement 'I\u2019ve spent my entire life working hard for everything that I have' as a positive affirmation of their hard work and dedication. This would lead them to say 'Yes, I would say this.'\"",
+                "LM_pred_label": "AFFIRMATION"
+            },
+            "original_data": {
+                "text": "If you are someone who values ACHIEVEMENT, will you do or say:I\u2019m a baby boomer. That means I\u2019ve spent my entire life working hard for everything that I have",
+                "ans_label": 1,
+                "ans_text": "AFFIRMATION"
+            },
+            "dataset": "values-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"If someone values conformity, they are likely to follow social norms and rules. Forcing their way through a metro turnstile goes against the norm and could be seen as non-conformist behavior. Therefore, they would likely choose 'No, I would not say this' as it goes against their value of conformity and would be seen as non-conformist behavior.\"",
+                "LM_pred_label": "REJECTION"
+            },
+            "original_data": {
+                "text": "If you are someone who values CONFORMITY, will you do or say:forcing my way through a metro turnstile",
+                "ans_label": -1,
+                "ans_text": "REJECTION"
+            },
+            "dataset": "values-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"If someone values non-conformity or individuality, they may reject the idea of conforming to social norms and expectations. In this case, they may disagree with the statement that bad music videos should not be brought to attention as it goes against their belief in promoting individuality and freedom of expression. Therefore, they would say 'No, I would not say this.'\"",
+                "LM_pred_label": "REJECTION"
+            },
+            "original_data": {
+                "text": "If you are someone who values CONFORMITY, will you do or say:wish people would stop bringing attention to bad music videos",
+                "ans_label": -1,
+                "ans_text": "REJECTION"
+            },
+            "dataset": "values-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"If someone values TRADITION, they may prioritize respecting others' privacy and upholding certain customs and practices. Reading someone's diary without their permission goes against these values and would likely be seen as inappropriate. Therefore, someone who values TRADITION would likely say 'No, I would not say this.'\"",
+                "LM_pred_label": "REJECTION"
+            },
+            "original_data": {
+                "text": "If you are someone who values TRADITION, will you do or say:I read my little sisters diary to a group of my friends",
+                "ans_label": -1,
+                "ans_text": "REJECTION"
+            },
+            "dataset": "values-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"If someone values benevolence, they may feel a sense of obligation to care for their parents and not avoid dealing with them. Therefore, not wanting to deal with one's parents would go against this value and lead to an attitude of rejection towards the idea.\"",
+                "LM_pred_label": "REJECTION"
+            },
+            "original_data": {
+                "text": "If you are someone who values BENEVOLENCE, will you do or say:not wanting to deal with my parents",
+                "ans_label": -1,
+                "ans_text": "REJECTION"
+            },
+            "dataset": "values-ourmethod"
+        },
+        {
+            "correct": true,
+            "pred_result": {
+                "why": "\"For individuals who value UNIVERSALISM, the idea of losing a friend over a difference in opinion on vaccination may go against their belief in inclusivity and acceptance of diverse perspectives. Therefore, they may choose to reject the statement and prioritize maintaining relationships over this particular issue.\"",
+                "LM_pred_label": "REJECTION"
+            },
+            "original_data": {
+                "text": "If you are someone who values UNIVERSALISM, will you do or say:losing my friend over her saying shes anti vax",
+                "ans_label": -1,
+                "ans_text": "REJECTION"
+            },
+            "dataset": "values-ourmethod"
+        }
+    ]
+}
