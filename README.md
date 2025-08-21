@@ -68,3 +68,5 @@ cd DET
 
 For each subdirectory, follow the environment setup instructions provided in their respective README files. Typically, this will involve setting up a Python virtual environment and installing dependencies.
 
+## Reference
+"Explainable Text Classification with LLMs: Enhancing Performance through Dialectical Prompting and Explanation-Guided Training", EMNLP2025 Findings.
