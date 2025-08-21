@@ -68,8 +68,3 @@ cd DET
 
 For each subdirectory, follow the environment setup instructions provided in their respective README files. Typically, this will involve setting up a Python virtual environment and installing dependencies.
 
-
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
